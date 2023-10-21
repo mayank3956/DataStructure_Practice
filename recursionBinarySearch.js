@@ -1,8 +1,6 @@
 function binarySearch(arr, left, right, key){
     debugger
 
-    // while(left<=right){
-        console.log(left,right);
         let mid= Math.round((left+right)/2);
         console.log(mid);
         if(left > right){
